@@ -1,0 +1,6 @@
+Syntax
+print():- This function prints text and strings which is passed a output.
+
+input():- This function takes the input from the user at the time of execution.
+
+
