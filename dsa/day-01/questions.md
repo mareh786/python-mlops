@@ -1,4 +1,4 @@
-# Day 1 (5 Easy Problems)
+# Day 1 
 
 ## Problem 1: Largest of Three Numbers
 
