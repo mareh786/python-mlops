@@ -16,4 +16,4 @@ if value == True:
     print(f"{number} is a prime number!!!")
     
 else:
-    print(f"{number} is composite number!")
+    print(f"{number} is a composite number!")

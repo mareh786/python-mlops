@@ -1,4 +1,4 @@
-# Day 3 (5 Easy Problems)
+# Day 3
 
 ## Problem 1: Find the Smallest Number
 
