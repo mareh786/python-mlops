@@ -4,5 +4,5 @@ def factorisation(num):
     for n in range(1, num+1):
         if num%n == 0:
             factor.append(n)
-
+    return factor
 print(factorisation(24))
