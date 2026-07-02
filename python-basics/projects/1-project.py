@@ -1,3 +1,4 @@
+visitor= []
 def landing_page():
     print("_____VISITOR ENTRY REGISTER______")
     print("Choose any of the options below")
