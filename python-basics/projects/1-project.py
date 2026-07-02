@@ -9,38 +9,34 @@ def landing_page():
 
 
 # Taking Input
-def takeIP():
+def take_input():
     landing_page()
-    ip = int(input("Enter your choice: "))
-
+    try:
+        ip = int(input("Enter your choice: "))
+    except ValueError:
+        print("Please enter a number. ")
     #Checking the Inputs
     if ip == 1:
-        vistorAdd()
-        # print("Please enter the Details")
-        # in_name =input("Please enter the name: ")
-        # in_age = int(input("Please enter the age: "))
-        # print(f"Details added successfully, Welcome {in_name}...")
+        visitor_add()
     elif ip == 2:
-        visitorDel()
-        # print("Provide the name and age of the visitor")
-        # out_name =input("Please enter the name: ")
-        # out_age = int(input("Please enter the age: "))
-        # print(f"Thanks for visiting {out_name}")
+        visitor_del()
     elif ip == 3:
-        visitorList()
+        visitor_list()
     elif ip == 4:
-        programExit()
+        program_exit()
     
     else:
         print("Kindly enter a valid choice!!!")
         landing_page()
 
-def visitorAdd(): 
+def visitor_add(): 
     print("Adding Visitor!!!")
-def visitorDel():
+def visitor_del():
     print("Visitor removed!!!")
-def visitorList():
+def visitor_list():
     print("Visitor checking!!!")
-def programExit():
+def program_exit():
     print("Thanks for choosing us!!!")
-    exit
+    exit()
+while True:
+    take_input()
