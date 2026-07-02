@@ -4,7 +4,7 @@ def commonChar(lst1, lst2):
     commonPresent = False
     for char in lst1:
         if char in lst2:
-            commonPresent == True
+            commonPresent = True
     return commonPresent
 
 value = commonChar([1, 2, 3, 4], [1, 9, 7, 5])
