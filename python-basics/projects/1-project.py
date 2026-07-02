@@ -15,6 +15,7 @@ def take_input():
         ip = int(input("Enter your choice: "))
     except ValueError:
         print("Please enter a number. ")
+        return
     #Checking the Inputs
     if ip == 1:
         visitor_add()
