@@ -1,7 +1,7 @@
 def searchFunc(nums, target):
     for i in nums:
         if i == target:
-            return list.index(i)
+            return nums.index(i)
         else:
             return -1
 
