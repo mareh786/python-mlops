@@ -5,7 +5,7 @@ def sameStr():
     str1 = input("Enter the first string: ")
     str2 = input("Enter the second string: ")
     
-    if str1.lower().strip().replace(" ", "")==str2.lower().strip().replace(" ", ""):
+    if str1.lower().replace(" ", "")==str2.lower().replace(" ", ""):
         print(f"The given strings are same")
     else:
         print(f"The given strings are not same")
