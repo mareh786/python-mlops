@@ -26,6 +26,9 @@ def common_element(lst1, lst2):
             if i==j:
                 result.append(i)
                 number+=1
-    return number, result
-num, res= common_element(["a","b", "c", "d"], ["c", "d", "e", "f"])
+    interset= list(set(lst1) & set(lst2))
+    return number, result, interset
+    
+
+num, res, inter= common_element(["a","b", "c", "d"], ["c", "d", "e", "f"])
 print(f"There are {num} common elements and those are {res}")
