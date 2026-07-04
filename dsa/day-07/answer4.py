@@ -15,3 +15,17 @@ print(f"There are {count} common elements and those are {common}")
 
 intersect= list(set(list1) & set(list2))
 print(intersect)
+
+# Approach 3
+
+def common_element(lst1, lst2):
+    result =[]
+    number= 0
+    for i in lst1:
+        for j in lst2:
+            if i==j:
+                result.append(i)
+                number+=1
+    return number, result
+num, res= common_element(["a","b", "c", "d"], ["c", "d", "e", "f"])
+print(f"There are {num} common elements and those are {res}")
