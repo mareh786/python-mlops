@@ -32,3 +32,5 @@ def common_element(lst1, lst2):
 
 num, res, inter= common_element(["a","b", "c", "d"], ["c", "d", "e", "f"])
 print(f"There are {num} common elements and those are {res}")
+
+print(inter)
