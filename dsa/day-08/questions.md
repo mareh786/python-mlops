@@ -1,6 +1,6 @@
 # Day 8
 
-## Problem 1: Find the Most Frequent Element
+## Opportunity 1: Find the Most Frequent Element
 
 Given a list of integers, return the element that appears the most times.
 
@@ -22,7 +22,7 @@ Output:
 
 ---
 
-## Problem 2: Remove Duplicate Characters from a String
+## Opportunity 2: Remove Duplicate Characters from a String
 
 Return a new string containing only the first occurrence of each character.
 
@@ -42,7 +42,7 @@ Output:
 
 ---
 
-## Problem 3: Find the Intersection of Two Lists
+## Opportunity 3: Find the Intersection of Two Lists
 
 Return a list of unique elements present in both lists.
 
@@ -62,7 +62,7 @@ Output:
 
 ---
 
-## Problem 4: Count Words in a Paragraph
+## Opportunity 4: Count Words in a Paragraph
 
 Given a sentence, return a dictionary containing the frequency of each word.
 
@@ -90,7 +90,7 @@ Output:
 
 ---
 
-## Problem 5: Print Pascal's Triangle (First 5 Rows)
+## Opportunity 5: Print Pascal's Triangle (First 5 Rows)
 
 Print:
 
