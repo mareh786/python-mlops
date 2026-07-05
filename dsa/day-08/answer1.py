@@ -7,6 +7,7 @@ for ch in lst:
         freq[ch] += 1
     else:
         freq[ch] = 1
-
+for key, value in freq.items:
+    print(key, 3)
 print(freq)
 print(max(freq.values()))
