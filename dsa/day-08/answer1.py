@@ -9,3 +9,4 @@ for ch in lst:
         freq[ch] = 1
 
 print(freq)
+print(max(freq.values()))
