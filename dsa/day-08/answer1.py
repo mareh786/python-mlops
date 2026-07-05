@@ -8,6 +8,5 @@ for ch in lst:
     else:
         freq[ch] = 1
 for key, value in freq.items():
-    print(key, value)
     if value == max(freq.values()):
         print(key)
