@@ -1,1 +1,1 @@
-# Print the longest string from the list
+# Print the longest word in a sentence
