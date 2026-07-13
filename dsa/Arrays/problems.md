@@ -65,3 +65,74 @@ Output:
 ```text
 False
 ```
+## Problem 4: Linear Search
+
+Write a function that returns the index of a target element in an array.
+
+Return `-1` if the element is not found.
+
+### Example
+
+```python
+linear_search([4, 7, 2, 9], 2)
+```
+
+Output:
+
+```text
+2
+```
+
+### Concepts
+
+- Array traversal
+- Searching
+- Early exit
+
+---
+
+## Problem 5: Count Occurrences of an Element
+
+Write a function that counts how many times a target element appears in an array.
+
+### Example
+
+```python
+count_occurrences([1, 2, 2, 3, 2, 4], 2)
+```
+
+Output:
+
+```text
+3
+```
+
+### Concepts
+
+- Traversal
+- Counting
+- Condition checking
+
+---
+
+## Problem 6: Find the Minimum Element
+
+Write a function that returns the smallest element in an array.
+
+### Example
+
+```python
+find_min([8, 3, 10, 1, 5])
+```
+
+Output:
+
+```text
+1
+```
+
+### Concepts
+
+- Running minimum
+- Array traversal
+- Comparison
