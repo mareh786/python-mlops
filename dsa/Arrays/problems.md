@@ -1,4 +1,4 @@
-# Arrays - Day 1
+# Arrays 
 
 ## Problem 1: Find the Maximum Element
 
