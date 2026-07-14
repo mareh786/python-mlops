@@ -136,3 +136,77 @@ Output:
 - Running minimum
 - Array traversal
 - Comparison
+
+
+## Problem 7: Find the First Occurrence
+
+Write a function that returns the index of the first occurrence of a target element in an array.
+
+Return `-1` if the element is not found.
+
+### Example
+
+```python
+first_occurrence([5, 2, 7, 2, 9], 2)
+```
+
+Output:
+
+```text
+1
+```
+
+### Concepts
+
+- Linear Search
+- Early Exit
+- Array Traversal
+
+---
+
+## Problem 8: Find the Last Occurrence
+
+Write a function that returns the index of the last occurrence of a target element in an array.
+
+Return `-1` if the element is not found.
+
+### Example
+
+```python
+last_occurrence([5, 2, 7, 2, 9], 2)
+```
+
+Output:
+
+```text
+3
+```
+
+### Concepts
+
+- Traversal
+- Indexing
+
+---
+
+## Problem 9: Count Even and Odd Numbers
+
+Write a function that returns the count of even numbers and odd numbers in an array.
+
+### Example
+
+```python
+count_even_odd([1, 2, 3, 4, 5, 6])
+```
+
+Output:
+
+```text
+(3, 3)
+```
+
+### Concepts
+
+- Counting
+- Conditions
+- Traversal
