@@ -266,3 +266,58 @@ Output:
 ```text
 2
 ```
+
+## Problem 13: Move All Zeros to the End
+
+Maintain the relative order of the non-zero elements.
+
+### Example
+
+```python
+move_zeros([0, 1, 0, 3, 12])
+```
+
+Output:
+
+```text
+[1, 3, 12, 0, 0]
+```
+
+---
+
+## Problem 14: Separate Even and Odd Numbers
+
+Return a new array with all even numbers first, followed by all odd numbers.
+
+Maintain the relative order.
+
+### Example
+
+```python
+separate_even_odd([5, 2, 8, 1, 6, 3])
+```
+
+Output:
+
+```text
+[2, 8, 6, 5, 1, 3]
+```
+
+---
+
+## Problem 15: Remove Duplicates from an Array
+
+Return a new array containing only the first occurrence of each element.
+
+### Example
+
+```python
+remove_duplicates([1, 2, 2, 3, 1, 4])
+```
+
+Output:
+
+```text
+[1, 2, 3, 4]
+```
+
