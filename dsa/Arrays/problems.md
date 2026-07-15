@@ -210,3 +210,59 @@ Output:
 - Counting
 - Conditions
 - Traversal
+
+## Problem 10: Find the Difference Between Maximum and Minimum
+
+Write a function that returns the difference between the largest and smallest element in an array.
+
+### Example
+
+```python
+difference([8, 2, 10, 5])
+```
+
+Output:
+
+```text
+8
+```
+
+---
+
+## Problem 11: Second Largest Element
+
+Write a function that returns the second largest **distinct** element in an array.
+
+Return `None` if it doesn't exist.
+
+### Example
+
+```python
+second_largest([10, 5, 20, 15])
+```
+
+Output:
+
+```text
+15
+```
+
+---
+
+## Problem 12: Second Smallest Element
+
+Write a function that returns the second smallest **distinct** element in an array.
+
+Return `None` if it doesn't exist.
+
+### Example
+
+```python
+second_smallest([8, 2, 5, 1, 3])
+```
+
+Output:
+
+```text
+2
+```
