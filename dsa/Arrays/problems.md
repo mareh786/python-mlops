@@ -321,3 +321,74 @@ Output:
 [1, 2, 3, 4]
 ```
 
+## Problem 16: Find the Prefix Sum Array
+
+Given an array, return its prefix sum array.
+
+### Example
+
+```python
+prefix_sum([2, 4, 6, 8])
+```
+
+Output:
+
+```text
+[2, 6, 12, 20]
+```
+
+### Concepts
+
+- Arrays
+- Running Sum
+- Traversal
+
+---
+
+## Problem 17: Find the Running Maximum
+
+Return an array where each element represents the maximum value seen so far.
+
+### Example
+
+```python
+running_max([3, 1, 5, 2, 6])
+```
+
+Output:
+
+```text
+[3, 3, 5, 5, 6]
+```
+
+### Concepts
+
+- Running Maximum
+- Single Pass
+- Arrays
+
+---
+
+## Problem 18: Find Leaders in an Array
+
+A leader is an element that is greater than all the elements to its right.
+
+The last element is always a leader.
+
+### Example
+
+```python
+leaders([16, 17, 4, 3, 5, 2])
+```
+
+Output:
+
+```text
+[17, 5, 2]
+```
+
+### Concepts
+
+- Reverse Traversal
+- Running Maximum
+- Arrays
