@@ -392,3 +392,73 @@ Output:
 - Reverse Traversal
 - Running Maximum
 - Arrays
+
+  ## Problem 19: Rotate Array to the Right by One
+
+Return a new array after rotating all elements one position to the right.
+
+### Example
+
+```python
+rotate_right([1, 2, 3, 4, 5])
+```
+
+Output:
+
+```text
+[5, 1, 2, 3, 4]
+```
+
+### Concepts
+
+- Arrays
+- Index manipulation
+
+---
+
+## Problem 20: Rotate Array to the Left by One
+
+Return a new array after rotating all elements one position to the left.
+
+### Example
+
+```python
+rotate_left([1, 2, 3, 4, 5])
+```
+
+Output:
+
+```text
+[2, 3, 4, 5, 1]
+```
+
+### Concepts
+
+- Arrays
+- Index manipulation
+
+---
+
+## Problem 21: Check if Two Arrays are Rotations
+
+Return `True` if one array is a rotation of the other.
+
+### Example
+
+```python
+is_rotation([1,2,3,4],[3,4,1,2])
+```
+
+Output:
+
+```text
+True
+```
+
+### Concepts
+
+- Arrays
+- Rotation
+- Comparison
+
+  
