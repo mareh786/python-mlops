@@ -461,4 +461,71 @@ True
 - Rotation
 - Comparison
 
-  
+## Problem 22: Reverse an Array In-Place
+
+Reverse the array without creating another array.
+
+### Example
+
+```python
+reverse_inplace([1,2,3,4])
+```
+
+Output:
+
+```text
+[4,3,2,1]
+```
+
+### Concepts
+
+- Two Pointers
+- Swapping
+
+---
+
+## Problem 23: Check if an Array is a Palindrome
+
+Return `True` if the array reads the same forwards and backwards.
+
+### Example
+
+```python
+is_palindrome([1,2,3,2,1])
+```
+
+Output:
+
+```text
+True
+```
+
+### Concepts
+
+- Two Pointers
+- Comparison
+
+---
+
+## Problem 24: Merge Two Sorted Arrays
+
+Merge two sorted arrays into one sorted array.
+
+Do **not** use `sort()`.
+
+### Example
+
+```python
+merge_sorted([1,3,5],[2,4,6])
+```
+
+Output:
+
+```text
+[1,2,3,4,5,6]
+```
+
+### Concepts
+
+- Two Pointers
+- Merge
