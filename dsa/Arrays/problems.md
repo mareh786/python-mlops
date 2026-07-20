@@ -529,3 +529,76 @@ Output:
 
 - Two Pointers
 - Merge
+
+## Problem 25: Best Time to Buy and Sell Stock
+
+Given stock prices, return the maximum profit from one buy and one sell.
+
+Return `0` if no profit is possible.
+
+### Example
+
+```python
+max_profit([7,1,5,3,6,4])
+```
+
+Output:
+
+```text
+5
+```
+
+### Concepts
+
+- Running Minimum
+- One Pass
+
+---
+
+## Problem 26: Find the Majority Element
+
+Return the element that appears more than `n/2` times.
+
+Assume it always exists.
+
+### Example
+
+```python
+majority([2,2,1,2,3,2,2])
+```
+
+Output:
+
+```text
+2
+```
+
+### Concepts
+
+- Counting
+- Arrays
+
+---
+
+## Problem 27: Find the Missing Number
+
+The array contains numbers from `1` to `n`, with exactly one missing.
+
+Find the missing number.
+
+### Example
+
+```python
+missing([1,2,4,5])
+```
+
+Output:
+
+```text
+3
+```
+
+### Concepts
+
+- Running Sum
+- Arrays
