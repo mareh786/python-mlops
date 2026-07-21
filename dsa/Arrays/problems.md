@@ -602,3 +602,77 @@ Output:
 
 - Running Sum
 - Arrays
+
+## Problem 28: Maximum Consecutive Ones
+
+Return the length of the longest sequence of consecutive `1`s.
+
+### Example
+
+```python
+max_consecutive_ones([1,1,0,1,1,1])
+```
+
+Output:
+
+```text
+3
+```
+
+### Concepts
+
+- Traversal
+- Counting
+
+---
+
+## Problem 29: Kadane's Algorithm (Maximum Subarray Sum)
+
+Return the maximum possible sum of any contiguous subarray.
+
+### Example
+
+```python
+max_subarray([-2,1,-3,4,-1,2,1,-5,4])
+```
+
+Output:
+
+```text
+6
+```
+
+Explanation:
+
+```text
+[4,-1,2,1]
+```
+
+### Concepts
+
+- Dynamic Programming
+- Running Sum
+
+---
+
+## Problem 30: Rearrange Array by Sign
+
+Given an array with an equal number of positive and negative integers, arrange them alternately while maintaining their relative order.
+
+### Example
+
+```python
+rearrange([3,1,-2,-5,2,-4])
+```
+
+Output:
+
+```text
+[3,-2,1,-5,2,-4]
+```
+
+### Concepts
+
+- Arrays
+- Two Pointers
+- Traversal
