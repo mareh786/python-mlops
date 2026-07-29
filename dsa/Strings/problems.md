@@ -482,3 +482,249 @@ Output:
 - String Parsing
 - Edge Cases
 - Character Processing
+
+# Strings
+
+## Problem 21: Longest Palindromic Substring
+
+Given a string, return the longest substring that is a palindrome.
+
+If there are multiple answers, return any one of them.
+
+### Example
+
+```python
+longest_palindrome("babad")
+```
+
+Output:
+
+```text
+"bab"
+```
+
+### Concepts
+
+- Two Pointers
+- Expand Around Center
+- String Traversal
+
+---
+
+## Problem 22: Minimum Window Containing All Characters
+
+Given two strings `s` and `t`, return the smallest substring of `s` that contains every character of `t`.
+
+### Example
+
+```python
+min_window("ADOBECODEBANC", "ABC")
+```
+
+Output:
+
+```text
+"BANC"
+```
+
+### Concepts
+
+- Sliding Window
+- Hash Map
+- Frequency Counting
+
+---
+
+## Problem 23: Longest Repeating Character Replacement
+
+You may replace at most `k` characters.
+
+Return the length of the longest substring containing only one repeating character.
+
+### Example
+
+```python
+character_replacement("AABABBA", 1)
+```
+
+Output:
+
+```text
+4
+```
+
+### Concepts
+
+- Sliding Window
+- Frequency Map
+
+---
+
+## Problem 24: Find All Anagram Indices
+
+Return all starting indices where an anagram of the pattern appears.
+
+### Example
+
+```python
+find_anagrams("cbaebabacd", "abc")
+```
+
+Output:
+
+```text
+[0, 6]
+```
+
+### Concepts
+
+- Sliding Window
+- Frequency Array
+- Hashing
+
+---
+
+## Problem 25: Longest Common Substring
+
+Return the longest substring common to both strings.
+
+### Example
+
+```python
+longest_common_substring("abcdef", "zcdemf")
+```
+
+Output:
+
+```text
+"cde"
+```
+
+### Concepts
+
+- Dynamic Programming (Introduction)
+- Strings
+
+---
+
+## Problem 26: Zigzag Conversion
+
+Arrange characters in a zigzag pattern and then read row by row.
+
+### Example
+
+```python
+zigzag_convert("PAYPALISHIRING", 3)
+```
+
+Output:
+
+```text
+"PAHNAPLSIIGYIR"
+```
+
+### Concepts
+
+- Simulation
+- String Construction
+
+---
+
+## Problem 27: Multiply Two Large Numbers Represented as Strings
+
+Do not convert the entire string into an integer.
+
+### Example
+
+```python
+multiply("123", "45")
+```
+
+Output:
+
+```text
+"5535"
+```
+
+### Concepts
+
+- Simulation
+- Carry Handling
+- String Manipulation
+
+---
+
+## Problem 28: Rabin-Karp Pattern Matching
+
+Return the first index where a pattern appears in a text using the Rabin-Karp algorithm.
+
+### Example
+
+```python
+rabin_karp("abracadabra", "cada")
+```
+
+Output:
+
+```text
+4
+```
+
+### Concepts
+
+- Rolling Hash
+- String Matching
+
+---
+
+## Problem 29: Implement KMP (Knuth-Morris-Pratt)
+
+Implement the KMP algorithm to search for a pattern in a string.
+
+### Example
+
+```python
+kmp_search("ababcabcabababd", "ababd")
+```
+
+Output:
+
+```text
+10
+```
+
+### Concepts
+
+- Prefix Function (LPS)
+- Efficient Pattern Matching
+
+---
+
+## Problem 30: Text Justification
+
+Given a list of words and a maximum line width, format the text so that each line is fully justified.
+
+### Example
+
+```python
+justify(
+    ["This","is","an","example","of","text","justification."],
+    16
+)
+```
+
+Output:
+
+```text
+[
+"This    is    an",
+"example  of text",
+"justification.  "
+]
+```
+
+### Concepts
+
+- Greedy Algorithm
+- String Manipulation
+- Simulation
